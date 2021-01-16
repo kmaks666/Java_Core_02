@@ -1,8 +1,7 @@
 
 public class CoffeRobot extends Robot{
-	@Override  
 	void work() {
-		  System.out.println("Я CoffeRobot – я варю каву"); 
+		  System.out.println("Гџ CoffeRobot вЂ“ Гї ГўГ Г°Гѕ ГЄГ ГўГі"); 
 	    }
 
 }
