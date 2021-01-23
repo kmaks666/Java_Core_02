@@ -26,17 +26,13 @@ public class Methods {
 					if ((a == 0) && (b == 0))
 						throw new IllegalAccessException();
 
-					try {
 						if ((a > 0) && (b > 0))
 							throw new MyException();
 								System.out.println("addition = " + addition(a, b));
 								System.out.println("subtraction = " + subtraction(a, b));
 								System.out.println("multiply = " + multiply(a, b));
 								System.out.println("division = " + division(a, b));
-					} catch (MyException exc) {
-						exc.printStackTrace();
-					}
-					
+										
 				} catch (IllegalAccessException exc) {
 					exc.printStackTrace();
 				}
