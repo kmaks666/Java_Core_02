@@ -5,9 +5,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-//	public enum TypeMaterial {
-//		Skin, Alcantara
-//	}
 
 	public static void menu() {
 		System.out.println("Press 1 to display all elements from array");
